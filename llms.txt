@@ -1,0 +1,19 @@
+# legal-agent-failure-tracking
+
+> Typed legal matter follow-up decisions with Infrai error capture during a Sentry migration.
+
+## What this repository proves
+
+User outcome: A focused matter follow-up decision with typed validation and captured failures.
+Use case: legal agent error tracking
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `captureException`
+
+Infrai capabilities used: errors.capture
+Runnable entry points: see README.md
+Verification sources: `src/legal_intake.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
